@@ -4,11 +4,6 @@ $(function() {
         $('.header__nav').toggleClass('is-active');
         $('.menu-btn').toggleClass('is-active');
         $('.menu-btn span').toggleClass('active');
-        if(('.menu-btn span').hasClass('active')) {
-            $('.menu-btn span').addClass('active');
-        } else {
-            $('.menu-btn span').removeClass('active');
-        }
     }); 
 
     $('.header__list__item a').on('click', function() {
