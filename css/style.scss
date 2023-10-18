@@ -105,10 +105,11 @@ img {
 .header__list {
   display: flex;
   transition: all 0.5s;
-
+  
   &.active {
     color: #444;
   }
+  
 }
 
 .header__list__item {

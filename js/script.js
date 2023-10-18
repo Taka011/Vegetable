@@ -20,13 +20,16 @@ $(function() {
         $(".header__list").addClass("active");
         $('.header__logo').addClass('active');
         $('.menu-btn span').addClass('active');
+        $('.search-btn').addClass('active');
         } else {
         // スクロールの位置がメインビジュアルより上の場合にclassを外す
         $(".header__list").removeClass("active");
         $('.header__logo').removeClass('active');
         $('.menu-btn span').removeClass('active');
+        $('.search-btn').removeClass('active');
         }
     });
+    
     // クリックスクロールイベント
     $('a[href^="#"]').on('click', function() {
         let adjust = -50;
