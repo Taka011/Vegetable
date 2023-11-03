@@ -624,10 +624,10 @@ img {
     text-align: center;
   }
   #product .btn {
-    padding: 16px 0px;
+    padding: 10px 0px;
   }
   #information .btn {
-    padding: 16px 0;
+    padding: 10px 0;
   }
   /* contact */
   #contact {
@@ -639,7 +639,7 @@ img {
   #contact .btn {
     width: 80%;
     margin: 20px auto;
-    padding: 16px 0px;
+    padding: 10px 0px;
     font-size: 0.9rem;
   }
   .contact__content-text {
