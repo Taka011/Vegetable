@@ -197,7 +197,6 @@ img {
 
 #mainvisual {
   width: 100%;
-  margin-bottom: 200px;
   position: relative;
 }
 
@@ -208,8 +207,8 @@ img {
   position: absolute;
   text-align: center;
   top: 50%;
+  transform: translateY(-50%);
   z-index: 10;
-  font-family: 'Roboto';
 }
 
 #mainvisual img {
@@ -222,8 +221,7 @@ img {
 /* インフォメーション */
 
 #information {
-  scroll-margin-top: 30px;
-  margin-bottom: 200px;
+  padding: 160px 0;
 }
 
 .info__inner {
@@ -269,8 +267,7 @@ img {
 /* コンセプト */
 
 #concept {
-  scroll-margin-top: 30px;
-  margin-bottom: 200px;
+  padding: 160px 0;
 }
 
 .concept__content {
@@ -373,8 +370,7 @@ img {
 /* product */
 
 #product {
-  scroll-margin-top: 30px;
-  margin-bottom: 200px;
+  padding: 160px 0;
 }
 
 .product__content {
@@ -395,7 +391,7 @@ img {
 
 .product__inner img {
   width: 100%;
-  height: 250px;
+  height: 300px;
   border-radius: 2%;
   object-fit: cover;
 }
@@ -440,7 +436,7 @@ img {
   background-color: #0f3c3c;
   color: #faf9f7;
   padding: 100px 0;
-  margin-bottom: 200px;
+  margin-bottom: 160px;
 }
 
 .contact__content {
@@ -619,10 +615,6 @@ img {
   }
 
   /* コンセプト */
-
-  #concept {
-    padding: 0;
-  }
 
   .concept__content {
     width: 100%;
